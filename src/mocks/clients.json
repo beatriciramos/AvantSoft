@@ -1,0 +1,66 @@
+{
+  "data": {
+    "clientes": [
+      {
+        "info": {
+          "nomeCompleto": "Ana Beatriz",
+          "detalhes": {
+            "email": "ana.b@example.com",
+            "nascimento": "1992-05-01"
+          }
+        },
+        "estatisticas": {
+          "vendas": [
+            { "data": "2024-01-01", "valor": 150 },
+            { "data": "2024-01-02", "valor": 50 }
+          ]
+        }
+      },
+      {
+        "info": {
+          "nomeCompleto": "Carlos Eduardo",
+          "detalhes": {
+            "email": "cadu@example.com",
+            "nascimento": "1987-08-15"
+          }
+        },
+        "duplicado": {
+          "nomeCompleto": "Carlos Eduardo"
+        },
+        "estatisticas": {
+          "vendas": [
+            { "data": "2024-01-08", "valor": 40 },
+            { "data": "2024-01-10", "valor": 250 }
+          ]
+        }
+      },
+      {
+        "info": {
+          "nomeCompleto": "Beatrici Reamos",
+          "detalhes": {
+            "email": "bea@example.com",
+            "nascimento": "1987-03-09"
+          }
+        },
+        "duplicado": {
+          "nomeCompleto": "Beatrici Ramos"
+        },
+        "estatisticas": {
+          "vendas": [
+            { "data": "2024-01-08", "valor": 40 },
+            { "data": "2024-01-10", "valor": 250 },
+            { "data": "2024-05-10", "valor": 100 },
+            { "data": "2024-02-10", "valor": 250 }
+          ]
+        }
+      }
+    ]
+  },
+  "meta": {
+    "registroTotal": 2,
+    "pagina": 1
+  },
+  "redundante": {
+    "status": "ok"
+  }
+}
