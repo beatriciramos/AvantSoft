@@ -40,7 +40,9 @@ cd avantsoft
 
 • Instale as dependências
 npm install
+
 # ou
+
 yarn install
 
 • Rode o projeto
@@ -58,5 +60,4 @@ Senha: 123456
 **_Observações_**
 • A autenticação é simulada localmente, sem backend real.
 • O contexto de clientes está populado com dados mockados.
-
-A navegação e logout são gerenciados via React Navigation.
+• A navegação e logout são gerenciados via React Navigation.
